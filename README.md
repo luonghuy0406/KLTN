@@ -10,15 +10,6 @@ Video test: [https://www.youtube.com/watch?v=TfiyxKGNRzI](https://www.youtube.co
 - Use Apache webserver with MySQL database.
 - Website written in PHP, Javascript, CSS, HTML.
 
-
-## The thesis includes the following directories:
-
-1. The baocaochitiet directory contains the file baocaochitet.doc, which is a report file.
-2. The code_detect directory contains KLTN.py file which is the main program, pretrain model MobileNet SSD and video test, has the function of detect + tracking + counting vehicle sending data to database and controlling traffic light.
-3. The code_webserver directory contains php, html, js, sql files and images to display and show the traffic flow chart on the web.
-4. The database directory contains the database.sql file
-5. The setup directory contains the setup.txt file, which provides instructions on installing the environment and the necessary libraries.
-
 ## Instructions to run the file:
 
 1. Read the setup.txt file in the setup directory to install the environment you need to run the program.
