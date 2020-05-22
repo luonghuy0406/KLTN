@@ -12,7 +12,7 @@ Video test: [https://www.youtube.com/watch?v=TfiyxKGNRzI](https://www.youtube.co
 ## setup
 ----- Installing operating system and connection for pi ---
 
-	1. Download the raspbian file
+	1. Download the raspbian.img file
 	2. Use SDcardFrmatter to format the memory card before installing
 	3. Use Win32 Disk Imager to write the img file to the memory card
 	4. Create the file ssh.txt (empty file) and put it in the memory card's boot to be able to use ssh
@@ -24,8 +24,8 @@ Video test: [https://www.youtube.com/watch?v=TfiyxKGNRzI](https://www.youtube.co
 
 	network = {
 	 scan_ssid = 1
-	 ssid = "ten_wifi"
-	 psk = "matkhau_wf"
+	 ssid = "name's wifi"
+	 psk = "password's wifi"
 	}
 	//
 	5. Use putty to ssh and install remote desktop
